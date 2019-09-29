@@ -1,0 +1,13 @@
+#container{
+    background-color: red;
+    height: 960px;
+    width: 960px;
+  }
+  .unit{
+    background-color: red;
+    height:60px;
+    width: 60px;
+    border-style: solid;
+    float:left;
+    border-color: black;
+  }
