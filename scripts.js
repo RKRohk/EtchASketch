@@ -3,6 +3,8 @@ var input = document.querySelector("#order");
 var button = document.querySelector("#resetButton");
 var bluestuff = [];
 var setButton = document.querySelector("#set");
+input.value = 16;
+createStuff();
 setButton.addEventListener("click",createStuff);
 function createStuff(){
   deleteChild(container);
